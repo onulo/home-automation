@@ -33,7 +33,7 @@ public class MeasurementController {
 	private HumSensor outdoorHumSensor;
 	
 	@GetMapping("/measurements")
-	public List<Measurement> getMesurements(){
+	public List<Measurement> getMeasurements(){
 		List<Measurement> measurements = new ArrayList<>();
 		measurements.add(tempHumSensor.getTemperature());
 		measurements.add(indoorHumSensor.getHumidity());

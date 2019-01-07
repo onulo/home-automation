@@ -12,9 +12,8 @@ public class MotionSersorEvent extends ApplicationEvent{
 	
 	public enum EventType{
 		MOTION_DETECTED,
-		QUIET_DETECTED;
-		
-	}
+		QUIET_DETECTED
+    }
 
 	public MotionSersorEvent(Object source, EventType eventType) {
 		super(source);

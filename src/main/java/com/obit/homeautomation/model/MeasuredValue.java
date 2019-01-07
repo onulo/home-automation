@@ -33,7 +33,7 @@ public class MeasuredValue {
 		
 		private String unitSymbol;
 		
-		private Unit(String unitSymbol) {
+		Unit(String unitSymbol) {
 			this.unitSymbol = unitSymbol;
 		}
 		

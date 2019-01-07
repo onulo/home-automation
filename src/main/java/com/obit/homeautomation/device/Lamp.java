@@ -2,11 +2,11 @@ package com.obit.homeautomation.device;
 
 public interface Lamp {
 	
-	public boolean turnOn();
-	public boolean turnOff();
-	public boolean turnNightModeOn();
-	public boolean turnNightModeOff();
-	public boolean isLampOn();
-	public boolean isNightModeOn();
+	boolean turnOn();
+	boolean turnOff();
+	boolean turnNightModeOn();
+	boolean turnNightModeOff();
+	boolean isLampOn();
+	boolean isNightModeOn();
 
 }
